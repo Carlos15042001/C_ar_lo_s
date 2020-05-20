@@ -1,0 +1,68 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      //background: gray;
+      background-image: 
+      url("https://www.linkpicture.com/q/android-black-gold_1.png");
+      font-family: arial;
+      background-size: auto 100vh;
+      height: 100vh;
+    }
+    
+    .menu ul {
+      display: flex;
+      background: #879DB4;
+      justify-content: space-around;
+      //border: 2px solid #cafff2;
+    
+    }
+    
+    .menu li {
+      list-style:none;
+      //background:red;
+      //border: 2px solid #cafff2;
+    }
+    
+    
+    a {
+      color: white;
+    }
+    
+    .AB {
+      background: #879DB4;
+      color: #CAFFF2;
+      text-align: center;
+    
+    }
+    
+    .BC {
+      background: white;
+      color: black;
+      font-style: italic;
+      text-align: center;
+    }
+    
+    
+    h1 {
+      margin: 0px;
+      //border: 	2px solid #cafff2;
+      padding: 20px;
+      width: 360px;
+      height: 90px;
+      box-sizing: border-box;
+    }
+    
+    h2 {
+      box-sizing: border-box;
+      margin: 0px;
+      border: 0px;
+      padding: 0px;
+      width: 340px;
+      height: 30px;
+    }
+    
