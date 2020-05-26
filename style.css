@@ -1,73 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    
-    body {
-      //background: gray;
-      background-image: 
-      url("https://www.linkpicture.com/q/android-black-gold_1.png");
-      font-family: arial;
-      background-size: auto 100vh;
-      height: 100vh;
-    }
-    
-    .menu ul {
-      display: flex;
-      background: #879DB4;
-      justify-content: space-around;
-      //border: 2px solid #cafff2;
-    
-    }
-    
-    .menu li {
-      list-style:none;
-      //background:red;
-      //border: 2px solid #cafff2;
-    }
-    
-    
-    a {
-      color: white;
-    }
-    
-    .AB {
-      background: #879DB4;
-      color: #CAFFF2;
-      text-align: center;
-    
-    }
-    
-    .BC {
-      background: white;
-      color: black;
-      font-style: italic;
-      text-align: center;
-    }
-    
-    .CD {
-      color: white;
-    }
-    
-    
-    h1 {
-      margin: 0px;
-      //border: 	2px solid #cafff2;
-      padding: 20px;
-      width: 360px;
-      height: 90px;
-      box-sizing: border-box;
-    }
-    
-    h2 {
-      box-sizing: border-box;
-      margin: 0px;
-      border: 0px;
-      padding: 0px;
-      width: 340px;
-      height: 30px;
-    }
+body {
+  background-image:
+    url("./Imagens/android-black-gold.png");
+  font-family: arial;
+  background-size: auto 100vh;
+  height: 100vh;
+}
 
-    
+header {
+  height: 38vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bo {
+  color: white;
+}
+
+.menu {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+}
+
+.menu ul {
+  display: flex;
+  background: #879DB4;
+  justify-content: space-around;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu a {
+  display: block;
+  padding: 7px 20px;
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a :hover {
+  text-decoration: underline;
+}
+
+.AB {
+  background: #879DB4;
+  color: #CAFFF2;
+  text-align: center;
+}
+
+.BC {
+  background: white;
+  color: black;
+  font-style: italic;
+  text-align: center;
+}
+
+.CD {
+  color: white;
+}
+
+.bro {
+  height: 130px;
+  width: 100px;
+}
+
+.lou {
+  height: 120px;
+  width: 125px;
+}
+
+.job {
+  display: flex;
+  justify-content: space-around;
+  background-image: url("./Imagens/CYMERA_20180630_133640.jpg")
+}
+
+
+h1 {
+  height: 10vh;
+
+}
+
+h2 {
+  color: white;
+  width: 95vw;
+}
+  
